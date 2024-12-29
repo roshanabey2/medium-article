@@ -1,0 +1,67 @@
+body {
+  color: #588157;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Playwrite AU VIC Guides", serif;
+  font-style: normal;
+  margin: 0;
+}
+h1, h2 {
+  font-family: "Playwrite AU VIC Guides", serif;
+  font-weight: bold;
+  color: #344E41;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+
+.banner {
+  background-image: url(https://loremflickr.com/800/240);
+  color: #780000;
+}
+
+#central_container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #DAD7CD;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, #fefae0, #283618);
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, #dda15e,#bc6c25);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
